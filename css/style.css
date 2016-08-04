@@ -1,0 +1,108 @@
+body {
+    background-color: #fff8f1;
+}
+/*logo*/
+.logo{
+	z-index: -10000;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+
+
+}
+/*navigation bar*/
+ .nav ul {
+ 	  font-family: 'Libre Baskerville', serif;
+      list-style: none;
+
+      text-align: center;
+      padding-top: 50px;
+      margin-right: 80px;
+      font-size: 12px;
+    }
+
+
+.nav li{
+    display:inline;
+
+}
+.nav a{
+	display:inline;
+	color: #2d2c44;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+	color: #C23B7D;
+}
+
+.active {
+	
+}
+
+.title{
+	color: #E8AD50;
+	font-size: 28px;
+	font-family: "Lyon Text Web";
+	display: inline-block;
+
+}
+.video{
+	position: relative; 
+	overflow: hidden; 
+	max-width: 100%;
+
+	width: 60%;
+	margin:auto;
+	padding-top: 30px;
+
+}
+
+
+
+p{  text-align: left;
+	margin-left: 250px;
+	color: #2d2c44;
+    padding: 0;
+    letter-spacing: 0.06em;
+    font-family: "Lyon Text Web";
+    font-size: 8.4pt;
+    line-height: 23px;
+   
+}
+
+.project{ 
+
+	text-align: left;
+	color: #2d2c44;
+	margin-left: 250px;
+	padding: 0;
+    letter-spacing: 0.06em;
+    font-family: "Lyon Text Web";
+    font-size: 8pt;
+    line-height: 23px;
+    margin-bottom: 75px;
+
+
+}
+
+
+#footer_info{
+	border:3px solid #2d2c44;
+    border-width:1px 0;
+	text-align: center;
+    color:  #2d2c44;
+	left: 40px;
+    margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding-top:20px; 
+	padding-bottom: 20px;
+	font-family: "Lyon Text Web";
+	z-index: -10000;
+	font-size: 11px;
+
+}
+
